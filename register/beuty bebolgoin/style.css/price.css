@@ -1,0 +1,81 @@
+.inside-content{
+    justify-items: center;
+}
+
+name{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vh;
+    text-align: center;
+    margin-right: 2vh;
+    margin-left: 1vh;
+}
+star{
+    justify-content: center ;
+    display: flex;
+   margin-bottom: 0.5vh;
+   color: gray;
+   font-size: 20px;
+}
+
+
+#price{
+    
+    justify-content: center;
+    display: flex;
+    margin-bottom: 2vh;
+    color: #e60676;
+}
+
+discount{
+    margin-right: 1vh;
+    font-size: 15px;
+    color: gray;
+}
+
+finalprice{
+    margin-right: 1vh;
+    font-size: 20px;
+    margin-top: -0.8vh;
+}
+
+discountpercent{
+    margin-right: 1vh;
+    font-size: 15px;
+    color: rgb(4, 57, 4);
+    font-weight: 700;
+}
+
+
+.addtocart{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    /* border: 2px solid red; */
+    background-color: #e60676;
+    padding-right: -10%;
+    padding-top: 1vh;
+    width: 50%;
+}
+
+addtocart{
+margin-top: 1.5vh;
+font-weight: 700;
+color: white   ;
+width: 20vh;
+font-size: 12px;
+margin-left: -4.5vh;
+margin-bottom: -4vh;
+
+}
+
+.cart-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+.fa fa-heart:hover{
+    background-color: #e60676;
+}

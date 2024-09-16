@@ -1,0 +1,58 @@
+#category_box{
+    /* border: 2px solid black; */
+    width: 83.5%;
+    height: auto;
+    margin-left: 8vh;
+    padding-bottom: 3vh;
+    margin-right: 5vh;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    
+}
+
+#fullcontent{
+    /* border: 2px solid red; */
+    display: flex;
+    height: auto;
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    
+}
+
+#inside-category_box{
+    /* border: 2px solid black; */
+    height: 5vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh;
+    margin-bottom: -4%;
+    margin-left: 2%;
+    margin-top: 1.5%;
+
+}
+
+#ptag{
+    color: rgb(10, 10, 10);
+    font-size: 12px;
+}
+
+#category_box > hr{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+
+#shipping_box{
+   
+    margin-left: 8vh;
+    padding-bottom: 3vh;
+    margin-top: 0%;
+}
+
+
+
+
+/* NOW MAIN CONTENT BOX CSS STYLING START FROM HERE  */
+

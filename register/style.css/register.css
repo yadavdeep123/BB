@@ -1,0 +1,118 @@
+#mainbox{
+    width: 99%;
+    height: auto;
+    /* border: 2px solid red; */
+    margin-top: -3vh;
+}
+
+#socialmediabutton{
+    /* border: 2px solid green; */
+    padding:5vh;
+    width: auto;
+    margin-left: 60vh;
+    display: flex;
+    border-radius: 5px;
+}
+
+.fa fa-facebook{
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+}
+
+.facebook{
+    /* border: 2px solid yellow; */
+    width: 35vh;
+    height: auto;
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    margin-right: 2vh;
+}
+
+.fa fa-google{
+    background-color: blue;
+    color: white;
+    border: 5px solid black;
+
+}
+
+.google{
+    /* border: 2px solid yellow; */
+    width: 35vh;
+    height: auto;
+    background-color: #c50c69;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
+
+
+.loginform{
+    border: 0.5px solid rgb(203, 202, 202);
+    width: 45%;
+    margin-left: 55vh;
+    height: auto;
+    padding: 5vh;
+    /* align-items: center;align-content: center; */
+    margin-right: 2vh;
+    background-color: rgb(246, 246, 240);
+}
+
+.loginformptag{
+    color: gray;
+}
+
+.loginforminput{
+    width: 100%;
+    height: 5vh;
+    margin-bottom: 4vh;
+}
+
+signin{
+    border :2px solid pink;
+    width: 8vh;
+    padding: 2vh;
+    background-color: rgb(53, 49, 49);
+    color: white;
+    font-size: 12px;
+    margin-right: 5vh;
+    margin-bottom: 8vh;
+}
+#signin:hover{
+    background-color: red;
+}
+
+#signup{
+    /* border :2px solid pink; */
+    width: auto;
+    padding: 2vh;
+    background-color: #24262b;
+    color: white;
+    font-size: 12px;
+    margin-right: 5vh;
+    margin-bottom: 8vh;
+}
+#signup:hover{
+    background-color: red;
+}
+
+
+.loginarea{
+    display: flex;
+}
+
+letter{
+        /* display: flex;
+        justify-content: space-between; */
+        font-size: 16px;
+        margin-bottom: 4vh;
+}
+.flexform{
+    display: flex;
+    justify-content: space-between;
+}
+

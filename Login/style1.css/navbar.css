@@ -1,0 +1,116 @@
+/* Style the navbar */
+.ppp>p{
+    font-family: sans-serif;
+    font-size: 13px;
+    color: gray;
+    cursor: pointer;
+  }
+  .ppp>b{
+    font-family: sans-serif;
+  }
+  #navbar {
+      /* overflow: hidden; */
+      background-color: #e5318b;
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 5vh;
+      flex-wrap: wrap;
+    }
+    
+    /* Navbar links */
+    #navbar a {
+      float: left;
+      display: block;
+      /* color: #f2f2f2; */
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+    }
+  
+    
+    
+    /* Page content */
+    .content {
+      padding: 16px;
+    }
+    
+    /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    
+    /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+    .sticky + .content {
+      padding-top: 60px;
+    }
+     #navbar a:hover{
+      background-color: rgb(183, 15, 94);
+    }
+  
+  
+  
+  
+  
+  
+  /* {
+    box-sizing: border-box;
+  } */
+  
+  /* Style the search field */
+  
+  /* Style the submit button */
+  
+  
+  
+  .dropbtn {
+    background-color:#e5318b;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropbtn:hover{
+    background-color: #b7256e;
+  }
+  
+  .variety {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px ;
+    text-decoration: none;
+    display: block;
+  }
+  
+  inside{
+    display: flex;
+    padding: 2vh;
+    width: auto;
+  }
+  
+  .ppp{
+    margin-right: 5vh;
+    width: 30vh;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  p:hover  {color:#e5318b;}
+
